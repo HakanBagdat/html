@@ -12,9 +12,14 @@
     <title>WP</title>
   </head>
   <body>
+    <!--
+      body altinda main ve footer semantik taglari kullanilmistir-->
       <main>
-        <h1>WP 2021- Hafta 03 - Ödev</h1>
-        <section>
+        <!-- main altinda 3 adet section tagi mevcuttur ve aralarinda birer satir atlama yapilmistir-->
+        <h1 id="head_1" class="head_of_page">
+          WP 2021- Hafta 03 - Ödev
+        </h1>
+        <section id="top_1" class="text_1">
           <p>
             Bu haftaki derste daha fazla <mark> HTML Attribüte</mark>lerini
             tanidik ve biraz daha detaylarina baktik ve
@@ -29,7 +34,7 @@
         </section>
         <hr>
 
-        <section>
+        <section id="top_2" class="reminding">
           <fieldset>
             <legend><h2>HATIRLATMA</h2></legend>
             <details>
@@ -42,7 +47,7 @@
                 Ölcü olarak, alttaki dagilimi referans alabilirsiniz:
               </p>
              
-              <ul class="italik">
+              <ul id="list1_1" class="italik">
                 <li>25% Teori</li>
                 <li>20% Pratik</li>
                 <li>25% Ödev</li>
@@ -52,7 +57,7 @@
           </fieldset>
         </section>
 
-        <section>
+        <section id="middle" class="consepts">
           <fieldset>
             <legend><h2>Hafta 04 Konseptler ve Linkler</h2></legend>
             <details open>
@@ -157,8 +162,8 @@
         </section>
       </main>
       <hr>
-      <footer>
-        <table width="100%" border="0px">
+      <footer id="bottom" class="kantons">
+        <table width="100%" border="0px" id="bottom_table" class="cantons_table">
           <thead>
             <th colspan="7">Isvicrede bazi kantonlar ile ilgili bilgiler</th>
           </thead>
@@ -216,6 +221,5 @@
           </tbody>
         </table>
       </footer>
-   
   </body>
 </html>
